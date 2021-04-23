@@ -9,9 +9,7 @@
 //section 2
 
 .sections__2 {
-  display: flex;
-
-  flex-direction: column;
+  position: absolute;
   align-items: right;
   width: 100vw;
   height: 376px;
@@ -19,14 +17,15 @@
   padding: 0 15px 0 15px;
 
   &__link {
-    display: flex;
+    margin-top: 30px;
+    position: absolute;
     color: $colorlightblue;
     text-transform: capitalize;
     font-family: $fontrobotonormal;
     font-size: 14px;
-    margin-top: 30px;
   }
   &__title {
+    position: absolute;
     font-family: $FontRobotoSlab;
     font-size: 24px;
     text-transform: capitalize;
@@ -35,11 +34,13 @@
   }
 
   &__paragraph {
+    position: absolute;
+
     color: #4a4a4a;
     font-family: $fontrobotonormal;
     font-size: 18px;
     line-height: 1.67;
-    padding-top: 136px;
+    margin-top: 136px;
   }
 
   &__button {
@@ -51,10 +52,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 286px;
   }
   &__button__go {
     color: $colororange;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: $fontrobotonormal;
     font-size: 20px;
     font-weight: 500;
