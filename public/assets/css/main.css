@@ -177,7 +177,7 @@ q:after {
     background-position: center; }
 
 .sections__2 {
-  position: absolute;
+  position: relative;
   align-items: right;
   width: 100vw;
   height: 376px;
@@ -205,6 +205,7 @@ q:after {
     line-height: 1.67;
     margin-top: 136px; }
   .sections__2__button {
+    position: absolute;
     width: 76px;
     height: 45px;
     border-radius: 22.5px;
@@ -220,6 +221,52 @@ q:after {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 20px;
     font-weight: 500; }
+
+.sections__3 {
+  display: grid;
+  position: absolute;
+  text-align: center;
+  grid-template-rows: 30px 30px 63px 30px 63px 30px 63px 45px;
+  grid-template-columns: 1fr;
+  row-gap: 45px;
+  width: 100vw;
+  height: 624px;
+  background-color: #eff9ff; }
+  .sections__3__title {
+    font-family: "Roboto Slab";
+    color: #000000;
+    font-size: 24px;
+    padding-top: 30px; }
+  .sections__3__article1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    font-family: "Roboto Slab";
+    color: #000000;
+    font-size: 18px; }
+  .sections__3__paragraph1 {
+    grid-row: 3/4;
+    grid-column: 1/2; }
+  .sections__3__article2 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    font-family: "Roboto Slab";
+    color: #000000;
+    font-size: 18px; }
+  .sections__3__paragraph2 {
+    grid-row: 5/6;
+    grid-column: 1/2; }
+  .sections__3__article3 {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    font-family: "Roboto Slab";
+    color: #000000;
+    font-size: 18px; }
+  .sections__3__paragraph3 {
+    grid-row: 7/8;
+    grid-column: 1/2; }
+  .sections__3__button {
+    grid-row: 8/9;
+    grid-column: 1/2; }
 
 .footer {
   background-color: green; }
