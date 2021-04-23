@@ -6,3 +6,46 @@
 //   // font-family: $font-main;
 
 // }
+//section 2
+
+.sections__2 {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 376px;
+  background-color: $colorwhite;
+
+  &__link {
+    color: $colorlightblue;
+    text-transform: capitalize;
+    font-family: $fontrobotonormal;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  &__title {
+    font-family: $FontRobotoSlab;
+    font-size: 24px;
+    text-transform: capitalize;
+    color: $fontrobotonormal;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  &__paragraph {
+    color: #4a4a4a;
+    font-family: $fontrobotonormal;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  &__buttom {
+    width: 76px;
+    height: 45px;
+    margin: 30px 100vw 45px 15px;
+    border-radius: 22.5px;
+    border: solid 2px $colororange;
+  }
+  &__buttom {
+  }
+}
