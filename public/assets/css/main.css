@@ -133,6 +133,16 @@ q:after {
   background-position: center;
   justify-content: center;
   align-items: center; }
+  .sections__1__menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    background-color: #0271bc;
+    background-image: url("../images/ico-menu.svg");
+    background-repeat: no-repeat;
+    background-position: center; }
   .sections__1__title {
     width: 290px;
     height: 110px;
@@ -160,7 +170,7 @@ q:after {
     height: 45px;
     margin: 470px 137px 53px 137px;
     border-radius: 22.5px;
-    background-color: seashell;
+    background-color: #ffffff;
     background-image: url("../images/ico-scroll-down.svg");
     background-repeat: no-repeat;
     background-position: center; }
