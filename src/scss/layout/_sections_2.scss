@@ -11,6 +11,8 @@
 .sections__2 {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: right;
   width: 100vw;
   height: 376px;
   background-color: $colorwhite;
@@ -21,7 +23,7 @@
     font-family: $fontrobotonormal;
     font-size: 14px;
     margin-left: 15px;
-    margin-right: 15px;
+    margin-top: 30px;
   }
   &__title {
     font-family: $FontRobotoSlab;
@@ -29,7 +31,6 @@
     text-transform: capitalize;
     color: $fontrobotonormal;
     margin-left: 15px;
-    margin-right: 15px;
   }
 
   &__paragraph {
@@ -37,15 +38,22 @@
     font-family: $fontrobotonormal;
     font-size: 18px;
     margin-left: 15px;
-    margin-right: 15px;
   }
   &__buttom {
     width: 76px;
     height: 45px;
-    margin: 30px 100vw 45px 15px;
     border-radius: 22.5px;
     border: solid 2px $colororange;
+    margin-left: 15px;
   }
-  &__buttom {
+  &__buttom__go {
+    color: $colororange;
+    text-transform: uppercase;
+    font-family: $fontrobotonormal;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 }
