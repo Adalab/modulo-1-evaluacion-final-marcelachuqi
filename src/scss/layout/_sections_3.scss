@@ -2,18 +2,27 @@
   font-family: $FontRobotoSlab;
   color: #000000;
   font-size: $font-size;
+  padding-top: 45px;
+}
+@mixin paragraphreasonsfont($font-size) {
+  font-family: $fontrobotonormal;
+  color: #000000;
+  font-size: $font-size;
+  line-height: 1.67;
+  text-align: center;
 }
 
 .sections__3 {
   display: grid;
-  position: absolute;
+  align-content: center;
   text-align: center;
-  grid-template-rows: 30px 30px 63px 30px 63px 30px 63px 45px;
-  grid-template-columns: 1fr;
+  //   grid-template-rows: repeat(4, 1fr);
+  //   grid-template-columns: 1fr;
   row-gap: 45px;
-  width: 100vw;
   height: 624px;
+  width: 100vw;
   background-color: #eff9ff;
+  position: absolute;
 
   &__title {
     @include titlereasonsfont(24px);
@@ -21,36 +30,54 @@
   }
 
   &__article1 {
-    grid-row: 2/3;
-    grid-column: 1/2;
+    // grid-row-start: 1;
+    // grid-row-end: 2;
     @include titlereasonsfont(18px);
   }
   &__paragraph1 {
-    grid-row: 3/4;
-    grid-column: 1/2;
+    // grid-row-start: 2;
+    // grid-row-end: 3;
+    @include paragraphreasonsfont(18px);
   }
   &__article2 {
-    grid-row: 4/5;
-    grid-column: 1/2;
+    // grid-row: 2/3;
+    // grid-column: 1/2;
     @include titlereasonsfont(18px);
   }
   &__paragraph2 {
-    grid-row: 5/6;
-    grid-column: 1/2;
+    // grid-row: 3/4;
+    // grid-column: 1/2;
+    @include paragraphreasonsfont(18px);
   }
 
   &__article3 {
-    grid-row: 6/7;
-    grid-column: 1/2;
+    // grid-row: 4/5;
+    // grid-column: 1/2;
     @include titlereasonsfont(18px);
   }
   &__paragraph3 {
-    grid-row: 7/8;
-    grid-column: 1/2;
+    // grid-row: 5/6;
+    // grid-column: 1/2;
+    @include paragraphreasonsfont(18px);
   }
   &__button {
-    grid-row: 8/9;
-    grid-column: 1/2;
+    // grid-row: 6/7;
+    // grid-column: 1/2;
+    width: 184px;
+    height: 45px;
+    padding: 0 29.5px 0 30.5px;
+    border-radius: 22.5px;
+    background-color: $colororange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  &__button__more {
+    color: $colorwhite;
+    font-family: $fontrobotonormal;
+    font-size: 20px;
+    font-weight: 500;
   }
 }
 
