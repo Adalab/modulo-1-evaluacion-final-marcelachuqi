@@ -154,13 +154,16 @@ q:after {
     font-size: 16px;
     text-align: center;
     color: #ffffff; }
-  .sections__1__link {
+  .sections__1__scroll {
     position: absolute;
     width: 45px;
     height: 45px;
     margin: 470px 137px 53px 137px;
     border-radius: 22.5px;
-    background-color: #ffffff; }
+    background-color: seashell;
+    background-image: url("../images/ico-scroll-down.svg");
+    background-repeat: no-repeat;
+    background-position: center; }
 
 .footer {
   background-color: green; }
