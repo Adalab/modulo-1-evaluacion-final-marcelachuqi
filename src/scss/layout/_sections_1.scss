@@ -1,6 +1,6 @@
 .sections__1 {
   display: flex;
-  position: relative;
+  // position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -43,6 +43,13 @@
     text-align: center;
     color: $colorwhite;
     position: absolute;
+    @media (min-width: 768px) {
+      width: 700px;
+      font-size: 80px;
+    }
+    @media (min-width: 1280px) {
+      font-size: 100px;
+    }
   }
   &__paragraph {
     width: 290px;
@@ -52,6 +59,9 @@
     font-size: 16px;
     text-align: center;
     color: $colorwhite;
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
   }
 
   &__scroll {

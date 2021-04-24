@@ -126,7 +126,6 @@ q:after {
 
 .sections__1 {
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -159,6 +158,13 @@ q:after {
     text-align: center;
     color: #ffffff;
     position: absolute; }
+    @media (min-width: 768px) {
+      .sections__1__title {
+        width: 700px;
+        font-size: 80px; } }
+    @media (min-width: 1280px) {
+      .sections__1__title {
+        font-size: 100px; } }
   .sections__1__paragraph {
     width: 290px;
     height: 21px;
@@ -167,6 +173,9 @@ q:after {
     font-size: 16px;
     text-align: center;
     color: #ffffff; }
+    @media (min-width: 768px) {
+      .sections__1__paragraph {
+        font-size: 24px; } }
   .sections__1__scroll {
     position: absolute;
     width: 45px;
