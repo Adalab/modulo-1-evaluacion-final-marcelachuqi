@@ -21,6 +21,12 @@
   }
   &__div__title {
     @include titlereasonsfont(24px);
+    @media (min-width: 768px) {
+      @include titlereasonsfont(26px);
+    }
+    @media (min-width: 1280px) {
+      @include titlereasonsfont(32px);
+    }
   }
   &__article1,
   &__article2,
@@ -81,6 +87,9 @@
     width: 692.3px;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(3, 1fr);
+  @media (min-width: 1280px) {
+    height: 427px;
+    width: 1113.5px; 
     &__1 {
       grid-row: 2/3;
       grid-column: 1/2;
