@@ -69,6 +69,12 @@
     justify-content: center;
     margin: auto;
     margin-bottom: 60px;
+    &:hover {
+      background-color: whitesmoke;
+      border: $colororange solid 2px;
+      transition: color ease 0.8s;
+      transform: scale(1.25);
+    }
   }
   &__button__more {
     color: $colorwhite;
@@ -77,6 +83,8 @@
     font-weight: 500;
     margin: auto;
     padding: 20px;
-    //Para el efecto cursos
+    &:hover {
+      color: $colororange;
+    }
   }
 }
