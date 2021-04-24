@@ -11,19 +11,19 @@
   width: 100vw;
   height: 465px;
   background-color: #304268;
-
-  &__nav {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  &__nav__web {
   }
   //media query solo cambiar a row
 
   &__nav__1 {
-    order: 1;
     margin-top: 60px;
   }
   &__nav__2 {
-    order: 2;
     margin-top: 30px;
   }
 
