@@ -288,12 +288,17 @@ q:after {
 
 .footer {
   width: 100vw;
-  height: 624px;
+  height: 465px;
   background-color: #304268; }
   .footer__nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly; }
+    flex-direction: column; }
+  .footer__nav__1 {
+    order: 1;
+    margin-top: 60px; }
+  .footer__nav__2 {
+    order: 2;
+    margin-top: 30px; }
   .footer__articles, .footer__books, .footer__events, .footer__reasons, .footer__tips {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: #ffffff;
@@ -311,8 +316,17 @@ q:after {
     text-align: center;
     text-transform: uppercase; }
   .footer__copy {
-    color: #ffffff;
     margin-bottom: 45px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
     text-align: center; }
+    .footer__copy__text, .footer__copy__year {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: #ffffff;
+      font-size: 14px;
+      line-height: 2.14; }
+  .footer__copy__heart {
+    color: #f26002; }
 
 /*# sourceMappingURL=main.css.map */

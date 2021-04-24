@@ -9,13 +9,22 @@
 
 .footer {
   width: 100vw;
-  height: 624px;
+  height: 465px;
   background-color: #304268;
 
   &__nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  //media query solo cambiar a row
+
+  &__nav__1 {
+    order: 1;
+    margin-top: 60px;
+  }
+  &__nav__2 {
+    order: 2;
+    margin-top: 30px;
   }
 
   &__articles,
@@ -33,8 +42,20 @@
   }
 
   &__copy {
-    color: $colorwhite;
     margin-bottom: 45px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    &__text,
+    &__year {
+      font-family: $fontrobotonormal;
+      color: $colorwhite;
+      font-size: 14px;
+      line-height: 2.14;
+    }
+  }
+  &__copy__heart {
+    color: $colororange;
   }
 }
