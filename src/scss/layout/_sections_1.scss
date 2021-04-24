@@ -40,6 +40,7 @@
   }
 
   &__title {
+    width: 290px;
     height: 110px;
     margin: 284px 15px 174px 15px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
@@ -51,7 +52,6 @@
     text-align: center;
     color: $colorwhite;
     position: absolute;
-    align-self: center;
   }
   &__paragraph {
     width: 290px;
@@ -74,8 +74,4 @@
     background-repeat: no-repeat;
     background-position: center;
   }
-
-  // &__scroll__button {
-
-  // }
 }
