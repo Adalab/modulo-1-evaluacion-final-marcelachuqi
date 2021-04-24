@@ -130,12 +130,15 @@ q:after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 568px;
   width: 100vw;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+  @media (min-width: 768px) {
+    .sections__1 {
+      height: 768px; } }
   .sections__1__menu {
     position: fixed;
     top: 0;
@@ -190,9 +193,10 @@ q:after {
     @media (min-width: 1280px) {
       .sections__1__paragraph {
         width: 730px;
-        margin-top: 648px;
+        position-top: 648px;
         margin-right: 275px;
-        margin-left: 275px; } }
+        margin-left: 275px;
+        position: 275px; } }
   .sections__1__scroll {
     position: absolute;
     width: 45px;

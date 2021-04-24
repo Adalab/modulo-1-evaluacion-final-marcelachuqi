@@ -4,12 +4,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 568px;
   width: 100vw;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  @media (min-width: 768px) {
+    height: 768px;
+  }
 
   // background-blend-mode: multiply;
   // background-image: linear-gradient(
@@ -33,7 +36,6 @@
 
   &__title {
     width: 290px;
-
     margin: 284px 15px 174px 15px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     font-family: $FontRobotoSlab;
@@ -75,9 +77,10 @@
     }
     @media (min-width: 1280px) {
       width: 730px;
-      margin-top: 648px;
+      position-top: 648px;
       margin-right: 275px;
       margin-left: 275px;
+      position: 275px;
     }
   }
 
