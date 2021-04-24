@@ -1,19 +1,40 @@
-// .page__footer {
-//   position: fixed;
-//   left: 0;
-//   bottom: 0;
-//   width: 100vw;
-//   padding: 1rem;
-//   color: $color-secondary;
-// }
+@mixin footerfont($font-size) {
+  font-family: $fontrobotonormal;
+  color: $colorwhite;
+  font-size: $font-size;
+  line-height: 1.88;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   width: 100vw;
-  height: 465px;
-  margin: 624px 0 0;
-  padding: 60px 15px 45px;
+  height: 624px;
   background-color: #304268;
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  &__articles,
+  &__books,
+  &__events,
+  &__reasons,
+  &__tips {
+    @include footerfont(16px);
+  }
+
+  .twitter,
+  .instagram,
+  .mastodon {
+    @include footerfont(16px);
+  }
+
+  &__copy {
+    color: $colorwhite;
+    margin-bottom: 45px;
+    text-align: center;
+  }
 }
