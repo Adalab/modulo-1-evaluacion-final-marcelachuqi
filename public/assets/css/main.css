@@ -220,10 +220,16 @@ q:after {
 
 .sections__2 {
   align-items: right;
-  width: 100vw;
+  width: 690px;
   height: 376px;
   background-color: #ffffff;
-  padding: 0 15px 0 15px; }
+  margin: 0 15px 0 15px; }
+  @media (min-width: 768px) {
+    .sections__2 {
+      height: 330px; } }
+  @media (min-width: 1280px) {
+    .sections__2 {
+      height: 360px; } }
   .sections__2__link {
     margin-top: 30px;
     position: absolute;
@@ -231,6 +237,14 @@ q:after {
     text-transform: capitalize;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-size: 14px; }
+    @media (min-width: 768px) {
+      .sections__2__link {
+        margin-left: 39px;
+        margin-right: 39px; } }
+    @media (min-width: 1280px) {
+      .sections__2__link {
+        margin-left: 275px;
+        margin-right: 275px; } }
   .sections__2__title {
     position: absolute;
     font-family: "Roboto Slab";
@@ -238,6 +252,17 @@ q:after {
     text-transform: capitalize;
     color: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     margin-top: 61px; }
+    @media (min-width: 768px) {
+      .sections__2__title {
+        margin-left: 39px;
+        margin-right: 39px;
+        margin-top: 60px;
+        font-size: 26px; } }
+    @media (min-width: 1280px) {
+      .sections__2__title {
+        margin-left: 275px;
+        margin-right: 275px;
+        margin-top: 90px; } }
   .sections__2__paragraph {
     position: absolute;
     color: #4a4a4a;
@@ -245,6 +270,17 @@ q:after {
     font-size: 18px;
     line-height: 1.67;
     margin-top: 136px; }
+    @media (min-width: 768px) {
+      .sections__2__paragraph {
+        margin-left: 39px;
+        margin-right: 39px;
+        margin-top: 135px;
+        font-size: 20px; } }
+    @media (min-width: 1280px) {
+      .sections__2__paragraph {
+        margin-left: 275px;
+        margin-right: 275px;
+        margin-top: 165px; } }
   .sections__2__button {
     position: absolute;
     width: 76px;
@@ -258,6 +294,14 @@ q:after {
     margin-top: 286px; }
     .sections__2__button:hover {
       background-color: #f26002; }
+    @media (min-width: 768px) {
+      .sections__2__button {
+        margin-left: 39px;
+        margin-top: 225px; } }
+    @media (min-width: 1280px) {
+      .sections__2__button {
+        margin-left: 275px;
+        margin-top: 255px; } }
   .sections__2__button__go {
     color: #f26002;
     text-transform: capitalize;

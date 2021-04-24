@@ -1,9 +1,15 @@
 .sections__2 {
   align-items: right;
-  width: 100vw;
+  width: 690px;
   height: 376px;
   background-color: $colorwhite;
-  padding: 0 15px 0 15px;
+  margin: 0 15px 0 15px;
+  @media (min-width: 768px) {
+    height: 330px;
+  }
+  @media (min-width: 1280px) {
+    height: 360px;
+  }
 
   &__link {
     margin-top: 30px;
@@ -12,6 +18,16 @@
     text-transform: capitalize;
     font-family: $fontrobotonormal;
     font-size: 14px;
+    @media (min-width: 768px) {
+      margin-left: 39px;
+      margin-right: 39px;
+      // --------------
+    }
+    @media (min-width: 1280px) {
+      margin-left: 275px;
+      margin-right: 275px;
+      // --------------
+    }
   }
   &__title {
     position: absolute;
@@ -20,16 +36,41 @@
     text-transform: capitalize;
     color: $fontrobotonormal;
     margin-top: 61px;
+    @media (min-width: 768px) {
+      margin-left: 39px;
+      margin-right: 39px;
+      // --------------
+      margin-top: 60px;
+      font-size: 26px;
+    }
+    @media (min-width: 1280px) {
+      margin-left: 275px;
+      margin-right: 275px;
+      // --------------
+      margin-top: 90px;
+    }
   }
 
   &__paragraph {
     position: absolute;
-
     color: #4a4a4a;
     font-family: $fontrobotonormal;
     font-size: 18px;
     line-height: 1.67;
     margin-top: 136px;
+    @media (min-width: 768px) {
+      margin-left: 39px;
+      margin-right: 39px;
+      // --------------
+      margin-top: 135px;
+      font-size: 20px;
+    }
+    @media (min-width: 1280px) {
+      margin-left: 275px;
+      margin-right: 275px;
+      // --------------
+      margin-top: 165px;
+    }
   }
 
   &__button {
@@ -45,6 +86,16 @@
     margin-top: 286px;
     &:hover {
       background-color: $colororange;
+    }
+    @media (min-width: 768px) {
+      margin-left: 39px;
+      // --------------
+      margin-top: 225px;
+    }
+    @media (min-width: 1280px) {
+      margin-left: 275px;
+      // --------------
+      margin-top: 255px;
     }
   }
   &__button__go {
