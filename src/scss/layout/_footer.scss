@@ -16,8 +16,17 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  &__nav__web {
+
+  &__arrow {
+    padding: 22.5px;
+    background-color: $colorwhite;
+    border-radius: 22.5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-image: url("../images/ico-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
   }
+
   //media query solo cambiar a row
 
   &__nav__1 {
