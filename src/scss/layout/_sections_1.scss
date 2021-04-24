@@ -1,10 +1,11 @@
 .sections__1 {
   display: flex;
-  // position: relative;
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
   background-image: url("../images/cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +33,7 @@
 
   &__title {
     width: 290px;
-    height: 110px;
+
     margin: 284px 15px 174px 15px;
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     font-family: $FontRobotoSlab;
@@ -44,23 +45,39 @@
     color: $colorwhite;
     position: absolute;
     @media (min-width: 768px) {
-      width: 700px;
+      width: 690px;
       font-size: 80px;
+      margin-top: 384px;
+      margin-right: 39px;
+      margin-left: 39px;
     }
     @media (min-width: 1280px) {
+      width: 730px;
       font-size: 100px;
+      margin-top: 384px;
+      margin-right: 275px;
+      margin-left: 275px;
     }
   }
   &__paragraph {
     width: 290px;
-    height: 21px;
     margin: 404px 0 143px 0px;
     font-family: $fontrobotonormal;
     font-size: 16px;
     text-align: center;
     color: $colorwhite;
     @media (min-width: 768px) {
+      width: 690px;
       font-size: 24px;
+      margin-top: 616px;
+      margin-right: 204px;
+      margin-left: 204px;
+    }
+    @media (min-width: 1280px) {
+      width: 730px;
+      margin-top: 648px;
+      margin-right: 275px;
+      margin-left: 275px;
     }
   }
 
@@ -74,5 +91,15 @@
     background-image: url("../images/ico-scroll-down.svg");
     background-repeat: no-repeat;
     background-position: center;
+    @media (min-width: 768px) {
+      margin-top: 678px;
+      margin-right: 361px;
+      margin-left: 361px;
+    }
+    @media (min-width: 1280px) {
+      margin-top: 710px;
+      margin-right: 618px;
+      margin-left: 618px;
+    }
   }
 }
