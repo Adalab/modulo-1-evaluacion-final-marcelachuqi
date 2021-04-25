@@ -16,7 +16,26 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  @media (min-width: 768px) {
+    height: 240px;
+  }
+  &__nav {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-45px);
 
+    @media (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      align-items: flex-start;
+      // position: relative;
+    }
+  }
   &__arrow {
     padding: 22.5px;
     background-color: $colorwhite;
@@ -25,15 +44,24 @@
     background-image: url("../images/ico-arrow.svg");
     background-repeat: no-repeat;
     background-position: center;
+    transform: translateY(-50%);
   }
-
-  //media query solo cambiar a row
 
   &__nav__1 {
     margin-top: 60px;
+    @media (min-width: 768px) {
+      margin-top: 45px;
+      transform: translateX(-60px);
+      order: 1;
+    }
   }
   &__nav__2 {
     margin-top: 30px;
+    @media (min-width: 768px) {
+      margin-top: 45px;
+      transform: translateX(140px);
+      order: 1;
+    }
   }
 
   &__articles,
@@ -51,7 +79,6 @@
   }
 
   &__copy {
-    margin-bottom: 45px;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -62,6 +89,10 @@
       color: $colorwhite;
       font-size: 14px;
       line-height: 2.14;
+    }
+    @media (min-width: 768px) {
+      text-align: left;
+      transform: translateX(-180px);
     }
   }
   &__copy__heart {
