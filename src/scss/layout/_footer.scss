@@ -54,6 +54,9 @@
       transform: translateX(-60px);
       order: 1;
     }
+    @media (min-width: 1280px) {
+      transform: translateX(-20px);
+    }
   }
   &__nav__2 {
     margin-top: 30px;
@@ -61,6 +64,9 @@
       margin-top: 45px;
       transform: translateX(140px);
       order: 1;
+    }
+    @media (min-width: 1280px) {
+      transform: translateX(70px);
     }
   }
 
@@ -93,6 +99,10 @@
     @media (min-width: 768px) {
       text-align: left;
       transform: translateX(-180px);
+      margin-top: 45px;
+    }
+    @media (min-width: 1280px) {
+      transform: translateX(-120px);
     }
   }
   &__copy__heart {
