@@ -467,6 +467,29 @@ q:after {
     background-repeat: no-repeat;
     background-position: center;
     transform: translateY(-50%); }
+
+@-webkit-keyframes arrowanime {
+  from {
+    opacity: 0;
+    transform: scale(1); }
+  to {
+    opacity: 1;
+    transform: scale(2) rotate(360deg) translateY(-20px); } }
+
+@keyframes arrowanime {
+  from {
+    opacity: 0;
+    transform: scale(1); }
+  to {
+    opacity: 1;
+    transform: scale(2) rotate(360deg) translateY(-20px); } }
+    .footer__arrow:hover {
+      -webkit-animation-name: arrowanime;
+      animation-name: arrowanime;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite; }
   .footer__nav__1 {
     margin-top: 60px; }
     @media (min-width: 768px) {
@@ -521,7 +544,7 @@ q:after {
     @media (min-width: 1280px) {
       .footer__copy {
         transform: translateX(-120px); } }
-  .footer__copy__heart {
-    color: #f26002; }
+    .footer__copy__copy__heart {
+      color: #f26002; }
 
 /*# sourceMappingURL=main.css.map */

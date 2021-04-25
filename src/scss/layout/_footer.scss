@@ -45,6 +45,21 @@
     background-repeat: no-repeat;
     background-position: center;
     transform: translateY(-50%);
+    @keyframes arrowanime {
+      from {
+        opacity: 0;
+        transform: scale(1);
+      }
+      to {
+        opacity: 1;
+        transform: scale(2) rotate(360deg) translateY(-20px);
+      }
+    }
+    &:hover {
+      animation-name: arrowanime;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
   }
 
   &__nav__1 {
@@ -96,6 +111,7 @@
       font-size: 14px;
       line-height: 2.14;
     }
+
     @media (min-width: 768px) {
       text-align: left;
       transform: translateX(-180px);
@@ -104,8 +120,9 @@
     @media (min-width: 1280px) {
       transform: translateX(-120px);
     }
-  }
-  &__copy__heart {
-    color: $colororange;
+
+    &__copy__heart {
+      color: $colororange;
+    }
   }
 }
