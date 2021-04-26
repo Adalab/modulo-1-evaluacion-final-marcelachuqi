@@ -1,20 +1,18 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-Comenzando 🚀
+# Comenzamos!🚀 Adalab web starter kit
 
-# Adalab web starter kit
-
-Aquí la primera maquetación realizada por una alumna de Adalab, si queréis sacar provecho a este proyecto es importante que sepáis lo que contiene, y es nuestro Kit, el Starter Kit de ADALAB creado en **node y gulp**.¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+Aquí **la primera maquetación realizada por una alumna de Adalab**, si queréis sacar provecho a este proyecto es importante que sepáis lo que contiene, y es nuestro Kit, el Starter Kit de ADALAB creado en **node y gulp**.¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
 
 Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
 
-El resultado final:
+El resultado final por si queréis echar un vistazo:
 
 ```bash
 http://beta.adalab.es/modulo-1-evaluacion-final-marcelachuqi/
 ```
 
-CONTENIDO
+### Contenido 📦
 
 En el Kit hay 3 tipos de ficheros y carpetas:
 
@@ -61,9 +59,7 @@ Este comando:
 
 Después de ejecutar `npm start` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
 
-Publicar tu proyecto ⚙️
-
-### Pasos para publicar el proyecto en GitHub Pages⚙:⚙
+### Pasos para publicar el proyecto en GitHub Pages: ⚙
 
 Para generar tu página para producción ejecuta el comando:
 
@@ -92,9 +88,7 @@ npm run deploy
 
 son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
 
-GULP 🔩
-
-## Flujo de archivos con Gulp
+## Flujo de archivos con Gulp 🔩
 
 Estas tareas de Gulp producen el siguiente flujo de archivos:
 
@@ -105,8 +99,6 @@ Estas tareas de Gulp producen el siguiente flujo de archivos:
 Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
 
 De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
-
-Estructura 📦
 
 ## Estructura de carpetas
 
@@ -132,17 +124,19 @@ src
 
 > **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
 
-Proyecto construido con 🛠️
+## Proyecto construido con 🛠️
+
 Visual Studio Code, Zeplin, Git Hub pages, Gulp, Adalab Web Starter Kit.
 
-Licencia del Adalab Web Starter Kit📄
+## Licencia del Adalab Web Starter Kit📄
+
 Este proyecto está bajo la Licencia MIT License
 Copyright (c) 2017 Adalab - mira el archivo LICENSE.md para detalles
 
-GRACIAS! 🎁
-Esta web fue maquetada por una alumna de Adalab, usando la Web Starter Kit de ADALAB y siguiendo las pautas de diseño del cliente a través de la herramienta Zeplin, representa un paso más en la carrera de cualquier Jr. Front-End Developer y prueba de que NADA ES IMPOSIBLE!!! 📢
-Os debemos unas 🍺 o ☕ a los profes.
-Gracias! 🤓
+## GRACIAS! 🎁
+
+Esta web fue maquetada por una alumna de Adalab, usando la Web Starter Kit de ADALAB y siguiendo las pautas de diseño del cliente a través de la herramienta Zeplin, **representa un paso más en la carrera de cualquier Jr. Front-End Developer y prueba de que NADA ES IMPOSIBLE!!!** 📢
+Os debemos unas 🍺 o ☕ a los profes. Gracias! 🤓
 
 ## Vídeotutoriales del Starter kit
 
