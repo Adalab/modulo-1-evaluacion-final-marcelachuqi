@@ -17,7 +17,7 @@ http://beta.adalab.es/modulo-1-evaluacion-final-marcelachuqi/
 En el Kit hay 3 tipos de ficheros y carpetas:
 
 - Los ficheros que están sueltos en la raíz del repositorio, como gulpfile.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos.
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
+- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, ...
 - Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
 
 ## Instalación 🔧- Guía de inicio rápido
@@ -107,7 +107,7 @@ src
  ├─ api // los ficheros de esta carpeta se copian en public/api/
  |  └─ data.json
  ├─ images
- |  └─ logo.jpg
+ |  └─ arrow.svg
  ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
  |  ├─ main.js
  |  └─ events.js
