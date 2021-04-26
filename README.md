@@ -20,9 +20,7 @@ En el Kit hay 3 tipos de ficheros y carpetas:
 - La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
 - Las carpetas `public/` y `docs/`, que son generadas automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/`, los procesa y los genera dentro de `public/` y `docs/`.
 
-Instalación 🔧
-
-## Guía de inicio rápido
+## Instalación 🔧- Guía de inicio rápido
 
 > **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) para trabajar con este Starter Kit:
 

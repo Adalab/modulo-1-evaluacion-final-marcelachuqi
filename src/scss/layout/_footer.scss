@@ -48,17 +48,17 @@
     @keyframes arrowanime {
       from {
         opacity: 0;
-        transform: scale(1);
+        transform: scale(3);
       }
       to {
         opacity: 1;
-        transform: scale(2) rotate(360deg) translateY(-20px);
+        transform: scale(1) translateY(-22.5px);
       }
     }
     &:hover {
       animation-name: arrowanime;
       animation-duration: 2s;
-      animation-iteration-count: infinite;
+      animation-iteration-count: 1;
     }
   }
 
@@ -99,6 +99,10 @@
     @include footerfont(16px);
   }
 
+  &__copy__heart {
+    color: $colororange;
+  }
+
   &__copy {
     margin-top: 30px;
     display: flex;
@@ -119,10 +123,6 @@
     }
     @media (min-width: 1280px) {
       transform: translateX(-120px);
-    }
-
-    &__copy__heart {
-      color: $colororange;
     }
   }
 }

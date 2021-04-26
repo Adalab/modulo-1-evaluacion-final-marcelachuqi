@@ -126,6 +126,7 @@ q:after {
 
 .sections__1 {
   display: flex;
+  width: 100vw;
   position: relative;
   flex-direction: column;
   justify-content: center;
@@ -219,7 +220,7 @@ q:after {
 
 .sections__2 {
   align-items: right;
-  width: 690px;
+  width: 100vw;
   height: 376px;
   background-color: #ffffff;
   margin: 0 15px 0 15px; }
@@ -312,6 +313,7 @@ q:after {
       color: #ffffff; }
 
 .sections__3 {
+  width: 100vw;
   height: 624px;
   background-color: #eff9ff; }
   @media (min-width: 768px) {
@@ -470,25 +472,25 @@ q:after {
 @-webkit-keyframes arrowanime {
   from {
     opacity: 0;
-    transform: scale(1); }
+    transform: scale(3); }
   to {
     opacity: 1;
-    transform: scale(2) rotate(360deg) translateY(-20px); } }
+    transform: scale(1) translateY(-22.5px); } }
 
 @keyframes arrowanime {
   from {
     opacity: 0;
-    transform: scale(1); }
+    transform: scale(3); }
   to {
     opacity: 1;
-    transform: scale(2) rotate(360deg) translateY(-20px); } }
+    transform: scale(1) translateY(-22.5px); } }
     .footer__arrow:hover {
       -webkit-animation-name: arrowanime;
       animation-name: arrowanime;
       -webkit-animation-duration: 2s;
       animation-duration: 2s;
-      -webkit-animation-iteration-count: infinite;
-      animation-iteration-count: infinite; }
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1; }
   .footer__nav__1 {
     margin-top: 60px; }
     @media (min-width: 768px) {
@@ -525,6 +527,8 @@ q:after {
     line-height: 1.88;
     text-align: center;
     text-transform: uppercase; }
+  .footer__copy__heart {
+    color: #f26002; }
   .footer__copy {
     margin-top: 30px;
     display: flex;
@@ -543,7 +547,5 @@ q:after {
     @media (min-width: 1280px) {
       .footer__copy {
         transform: translateX(-120px); } }
-    .footer__copy__copy__heart {
-      color: #f26002; }
 
 /*# sourceMappingURL=main.css.map */
