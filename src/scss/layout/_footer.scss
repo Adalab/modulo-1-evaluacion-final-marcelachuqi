@@ -1,12 +1,3 @@
-@mixin footerfont($font-size) {
-  font-family: $fontrobotonormal;
-  color: $colorwhite;
-  font-size: $font-size;
-  line-height: 1.88;
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .footer {
   width: 100vw;
   height: 465px;

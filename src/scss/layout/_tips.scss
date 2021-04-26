@@ -1,6 +1,4 @@
 .sections__2 {
-  align-items: right;
-  width: 100vw;
   height: 376px;
   background-color: $colorwhite;
   margin: 0 15px 0 15px;
@@ -39,14 +37,12 @@
     @media (min-width: 768px) {
       margin-left: 39px;
       margin-right: 39px;
-      // --------------
       margin-top: 60px;
       font-size: 26px;
     }
     @media (min-width: 1280px) {
       margin-left: 275px;
       margin-right: 275px;
-      // --------------
       margin-top: 90px;
     }
   }
@@ -89,12 +85,10 @@
     }
     @media (min-width: 768px) {
       margin-left: 39px;
-      // --------------
       margin-top: 225px;
     }
     @media (min-width: 1280px) {
       margin-left: 275px;
-      // --------------
       margin-top: 255px;
     }
   }
