@@ -1,0 +1,20 @@
+@mixin footerfont($font-size) {
+  font-family: $fontrobotonormal;
+  color: $colorwhite;
+  font-size: $font-size;
+  line-height: 1.88;
+  text-align: center;
+  text-transform: uppercase;
+}
+@mixin titlereasonsfont($font-size) {
+  font-family: $FontRobotoSlab;
+  color: #000000;
+  font-size: $font-size;
+}
+@mixin paragraphreasonsfont($font-size) {
+  font-family: $fontrobotonormal;
+  color: #000000;
+  font-size: $font-size;
+  line-height: 1.67;
+  text-align: center;
+}
